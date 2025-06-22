@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f3e9f7;
+    color: #333;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+nav{
+    background-color: #b288d2;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav li{
+    margin: 8px 15px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px 8px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover{
+    background-color: #a06cc1;
+}
+
+h1, h2, h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #6a1b9a;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+section{
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    display: grid;
+    gap: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+header p{
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0 0 10px 0;
+}
+
+.image-grid{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.image-grid img{
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: auto;
+    max-width: 100%;
+}
+
+form{
+    display: grid;
+    gap: 15px;
+}
+input, textarea{
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+button{
+    background-color: #6a1b9a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover{
+    background-color: #531577;
+}
+
+.education-section{
+    text-align: center;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.education-block{
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.education-block img{
+    width: 250px;
+    max-width: 100%;
+    height: 180px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+    margin: 0;
+    padding: 0;
+    flex-shrink: 0;
+}
+
+.education-block p{
+    font-size: 18px;
+    line-height: 1.8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.about-me-section{
+    text-align: center;
+}
